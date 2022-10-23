@@ -1,5 +1,8 @@
 #!/bin/sh
-mkdir -p src/{main,test}/{resources,scala}
+mkdir -p src/main/resources
+mkdir -p src/main/scala
+mkdir -p src/test/resources
+mkdir -p src/test/scala
 mkdir lib project target
 
 # create an initial build.sbt file
