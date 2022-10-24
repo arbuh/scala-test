@@ -1,6 +1,7 @@
 object Main extends App {
-  val arr = Seq("h", "e", "l", "l", "o")
-  val str = arr.mkString
-  println(str)
+  val array = Seq("h", "e", "l", "l", "o")
+  val str: String = array.mkString
+  val test = Test(str)
+  println(test)
 }
 
